@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <configuration scan="true" scanPeriod="60 seconds" debug="false">
     <contextName>logback</contextName>
-    <!--<property resource="classpath:application.properties"/>-->
+    <property resource="classpath:application.properties"/>
     <property resource="application.properties"/>
     <property name="log.path" value="${logback.log.dir}"/>
     <!--输出到控制台-->
